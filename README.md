@@ -1,5 +1,6 @@
 # Aquifer_Risk_Map
-The data processing steps used to create the aquifer risk map.
+The data processing steps used to create the aquifer risk map. 
+Map available at: https://gispublic.waterboards.ca.gov/portal/apps/webappviewer/index.html?id=b5488c0911314ef6a4796245dd584d0b
 
 The data processing methodology is split into two R files. The first one ("waterquality_datadownload")
 handles the data collection and data standardization. The second one ("aquiferriskmap_method") handles

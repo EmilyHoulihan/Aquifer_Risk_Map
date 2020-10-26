@@ -8,4 +8,5 @@ the de-clustering and aggregation of the water quality data into census block gr
 
 If you would like to re-run this data processing, or are interested in any of the dependant reference files
 (shapefile boundaries, chemical comparison concentration tables, etc.), please contact Emily Houlihan 
-(Emily.Houlihan@Waterboards.ca.gov). The R files are provided mainly to document the methodology steps.
+(Emily.Houlihan@Waterboards.ca.gov). These reference files are too large to host on GitHub.
+The R files are provided here to document the methodology steps.

@@ -15,18 +15,16 @@
 #2. Calculates square mile section averages and recent results
 #3. Calculates census block group aggregated scores
 
-if (!dir.exists("~/R_projects")) dir.create("~/R_projects", FALSE); setwd("~/R_projects")
-
 if (!require('tidyverse')) install.packages('tidyverse'); library('tidyverse')
 if (!require('foreign')) install.packages('foreign'); library('foreign')
 if (!require('lubridate')) install.packages('lubridate'); library('lubridate')
 if (!require('readxl')) install.packages('readxl'); library('readxl')
 
 #0. Load water quality and census data####
-welldata <- read.csv("Rfiles/domwellWQdata2020-08-11.csv", stringsAsFactors = F)
-allwells <- read.delim("Rfiles/allwells2020-08-11.txt", stringsAsFactors = F)
-wellsmtrs <- read.dbf("Rf/wells2020-08-07_MTRSjoin.dbf", as.is = T)
-CBG <- read.dbf("Rfiles/bg_mtrs_join.dbf", as.is = T)
+welldata <- read.csv("Datasets/domwellWQdata2020-08-11.csv", stringsAsFactors = F)
+allwells <- read.delim("Datasets/allwells2020-08-11.txt", stringsAsFactors = F)
+wellsmtrs <- read.dbf("Datasets/wells2020-08-07_MTRSjoin.dbf", as.is = T)
+CBG <- read.dbf("Datasets/bg_mtrs_join.dbf", as.is = T)
 
 #census information
 cbg <- CBG %>% select(MTRS, DomWellCou, GEOID) %>% distinct()
@@ -93,7 +91,7 @@ pdrisk <- left_join(pdrisk, wellinfo)
 
 #2. Calculate section risk scores (square miles)####
 #load file that contains neighbor reference data
-neighborsec <- read.dbf("Rfiles/MTRS_neighbor_all.dbf", as.is = T) %>% 
+neighborsec <- read.dbf("Datasets/MTRS_neighbor_all.dbf", as.is = T) %>% 
   select(MTRS, MTRS_2) %>% distinct() %>%
   filter(!MTRS == MTRS_2)
 
@@ -214,19 +212,19 @@ write.csv(cdrisk_wq, "censusdata_risk_wq.csv", row.names = F)
 
 #3b. Census block group data - hazard + exposure (combined risk scores) ####
 #load domestic well information
-oswcr_dates <- read.csv("oswcr_dom_date1970na.csv", stringsAsFactors = F)
+oswcr_dates <- read.csv("Datasets/oswcr_dom_date1970na.csv", stringsAsFactors = F)
 cbg3 <- left_join(cbg, oswcr_dates)
 cbg3[is.na(cbg3)] <- 0
 cbg_dates <- cbg3 %>% group_by(GEOID) %>% summarize(oswcr_1970na = sum(dom_wells1970na))
 cdrisk_com <- left_join(cdrisk_wq, cbg_dates)
 
 #load state small system location information
-statesmalls <- read.dbf("C:/Users/emily/Documents/work/R_projects/shapefiles/SSWS_rcac_final_w_monterey_wqrisk.dbf", as.is = T)
+statesmalls <- read.dbf("Datasets/SSWS_rcac_final_w_monterey_wqrisk.dbf", as.is = T)
 ss_count <- statesmalls %>% group_by(GEOID) %>%
   summarize(statesmallcount = n())
 
 #load demographic information
-demog <- read.dbf("C:/Users/emily/Documents/work/R_projects/shapefiles/2018bgmhi_dwr.dbf", as.is = T)
+demog <- read.dbf("Datasets/2018bgmhi_dwr.dbf", as.is = T)
 head(demog)
 
 #add new risk factors to water quality scores
@@ -242,7 +240,7 @@ totaloswcr_1970na <- 287142
 sumoswcr_1970na <- sum(comprisk$oswcr_1970na, na.rm = T)
 
 #import block group info (counties)
-bg_info <- read.dbf("C:/Users/emily/Documents/work/R_projects/shapefiles/tl_2019_06_bg_WGS_geom_m.dbf", as.is = T)
+bg_info <- read.dbf("Datasets/tl_2019_06_bg_WGS_geom_m.dbf", as.is = T)
 bg_counties <- readxl::read_excel("county_codes.xlsx")
 bg_info <- left_join(bg_info, bg_counties, by = c("COUNTYFP" = "county_code"))
 bg_info <- bg_info %>% mutate(area_sq_mi = area/2589988.1103)

@@ -19,9 +19,6 @@
 #3. apply depth filter to wells with water quality data
 #4. standardize and clean water quality data (standardize chemicals, handle outliers and non-detects)
 
-#set working directory
-if (!dir.exists("~/R_projects")) dir.create("~/R_projects", FALSE); setwd("~/R_projects")
-
 #load required libraries
 if (!require('tidyverse')) install.packages('tidyverse'); library('tidyverse')
 if (!require('foreign')) install.packages('foreign'); library('foreign')
@@ -67,13 +64,13 @@ st_drop_geometry <- function(x) {
 }
 
 #define chemicals of interest
-chem_list <- read.csv("Rfiles/NA_allchems.csv", stringsAsFactors = F)        
+chem_list <- read.csv("Datasets/NA_allchems.csv", stringsAsFactors = F)        
 chem_list <- chem_list %>% filter(CCT == "MCL" | chemVVL %in% c("CU", "PB", "NNSM", "CR6")) %>%
   filter(!chemVVL %in% c("ASBESTOS", "COLIFORM", "FCOLIFORM", "RN-222"))
 
 #1. download data ####
 #EI well category dataset - identify domestic wells
-well_source <- read.csv("Rfiles/gama_raw_well_export.csv", stringsAsFactors = F)
+well_source <- read.csv("Datasets/gama_raw_well_export.csv", stringsAsFactors = F)
 well_domestics <- well_source %>% filter(Category == "Domestic")
 
 #well location information (the well categories here are incorrect- the EI file above is used to identify well type)
@@ -208,7 +205,7 @@ unlink(temp2)
 
 #import MTRS boundaries (no interface with ArcGIS Online via R, so must be downloaded separately)
 #####DomWellD_1 is min, DomWellD_2 is max, DomWellDep is average
-MTRS <- readOGR(dsn = "~/R_projects", 
+MTRS <- readOGR(dsn = "Datasets", 
                 layer = "i07_WellReportStatsBySection_1009")
 
 #define coordinate system for points

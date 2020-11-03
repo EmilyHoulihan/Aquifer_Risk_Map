@@ -2,9 +2,11 @@
 The data processing steps used to create the aquifer risk map. 
 Map available at: https://gispublic.waterboards.ca.gov/portal/apps/webappviewer/index.html?id=b5488c0911314ef6a4796245dd584d0b
 
-The data processing methodology is split into two R files. The first one ("waterquality_datadownload")
-handles the data collection and data standardization. The second one ("aquiferriskmap_method") handles
+The data processing documentation is available in the "Methodology" folder. "waterquality_datadownload.R"
+handles the data collection and data standardization. "aquiferriskmap_method.R" handles
 the de-clustering and aggregation of the water quality data into census block group "risk" scores.
+
+The final tables containing the risk scores in .csv format are available in the "Tables" folder. Data is available for census block groups, square mile sections (PLSS) and well points.
 
 If you would like to re-run this data processing, or are interested in any of the dependant reference files
 (shapefile boundaries, chemical comparison concentration tables, etc.), please contact Emily Houlihan 

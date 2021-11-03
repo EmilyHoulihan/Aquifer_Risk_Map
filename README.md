@@ -11,7 +11,8 @@ Methodology for the "2021 Aquifer Risk Map" is available in the "2021" folder, a
 
 Methodology for the "2022 Aquifer Risk Map" is available in the "2022" folder, and includes:
 1. "ARM_2022.R" (aquifer risk map data download and data processing steps)
-
+2. "Aquifer Risk Map 2022 Updates Summary" (file that describes methdology changes and resulting impacts for updates to 2022 map)
+3. "oswcr_filtering.R" (steps for identifying domestic well records)
 
 If you would like to re-run this data processing, or are interested in any of the dependant reference files
 (shapefile boundaries, etc.), please contact Emily Houlihan (Emily.Houlihan@Waterboards.ca.gov).

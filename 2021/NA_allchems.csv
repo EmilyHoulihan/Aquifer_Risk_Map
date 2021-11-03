@@ -1,0 +1,261 @@
+chemVVL,chemNAME,UNITS,CCV,CCT
+DCE11,"1,1 Dichloroethylene (1,1 DCE)",UG/L,6,MCL
+TCA111,"1,1,1-Trichloroethane",UG/L,200,MCL
+PCA,"1,1,2,2 Tetrachloroethane (PCA)",UG/L,1,MCL
+FC113,"1,1,2-Trichloro-1,2,2-Trifluoroethane (Freon 113)",MG/L,1.2,MCL
+TCA112,"1,1,2-Trichloroethane",UG/L,5,MCL
+DCA11,"1,1-Dichloroethane (1,1 DCA)",UG/L,5,MCL
+EDB,"1,2 Dibromoethane (EDB)",UG/L,0.05,MCL
+DCBZ12,"1,2 Dichlorobenzene (1,2-DCB)",UG/L,600,MCL
+DCA12,"1,2 Dichloroethane (1,2 DCA)",UG/L,0.5,MCL
+DCPA12,"1,2 Dichloropropane (1,2 DCP)",UG/L,5,MCL
+TCPR123,"1,2,3-Trichloropropane (1,2,3 TCP)",UG/L,0.005,MCL
+TCB124,"1,2,4- Trichlorobenzene (1,2,4 TCB)",UG/L,5,MCL
+TMB124,"1,2,4-Trimethylbenzene",UG/L,330,NL
+DBCP,"1,2-Dibromo-3-chloropropane (DBCP)",UG/L,0.2,MCL
+DCE12TOT,"1,2-Dichloroethene",UG/L,0,No Comparison Conc.
+DCP13,"1,3 Dichloropropene",UG/L,0.5,MCL
+TMB135,"1,3,5-Trimethylbenzene",UG/L,330,NL
+DCBZ13,"1,3-Dichlorobenzene ",UG/L,600,HAL-US
+DCBZ14,"1,4-Dichlorobenzene (p-DCB)",UG/L,5,MCL
+DIOXANE14,"1,4-Dioxane",UG/L,1,NL
+17DIMETHYLX,"1,7-Dimethylxanthine  ",UG/L,0,No Comparison Conc.
+CLBZME2,2 Chlorotoluene,UG/L,140,NL
+TCDD2378,"2,3,7,8-Tetrachlorodibenzodioxin (Dioxin)",UG/L,0.00003,MCL
+SILVEX,"2,4,5-TP (Silvex)",UG/L,50,MCL
+TNT,"2,4,6-Trinitrotoluene (TNT)",UG/L,1,NL
+24D,"2,4-Dichlorophenoxyacetic acid (2,4 D)",UG/L,70,MCL
+CLBZME4,4 Chlorotoluene,UG/L,140,NL
+DDD44,"4,4'-DDD",UG/L,0.1,CA-CPF
+DDE44,"4,4'-DDE",UG/L,0.1,CA-CPF
+DDT44,"4,4'-DDT",UG/L,0.1,CA-CPF
+ACETAMPHEN,Acetaminophen ,UG/L,0,No Comparison Conc.
+ACE,Acetone,UG/L,6300,RfD
+ALACL,Alachlor,UG/L,2,MCL
+ALBUTEROL,Albuterol,UG/L,0,No Comparison Conc.
+ALDICARB,Aldicarb,UG/L,7,HBSL
+ALDSULF,Aldicarb Sulfone,UG/L,7,HBSL
+ALDSULFOX,Aldicarb sulfoxide,UG/L,7,HBSL
+ALKCACO3,Alkalinity as CaCO3,MG/L,0,No Comparison Conc.
+BHCALPHA,Alpha-Benzene Hexachloride (Alpha-BHC),UG/L,0.15,CA-Prop65
+AL,Aluminum,UG/L,1000,MCL
+NH3NH4N,Ammonia,MG/L,30,HAL-US
+ACB,Anion/Cation Balance,Count,0,No Comparison Conc.
+SB,Antimony,UG/L,6,MCL
+AR,Argon,cm3STP/g,0,No Comparison Conc.
+AS,Arsenic,UG/L,10,MCL
+ASBESTOS,Asbestos,UG/L,7,MCL
+ATRAZINE,Atrazine,UG/L,1,MCL
+AZIPE,Azinphos Ethyl,UG/L,10,HBSL
+BA,Barium,MG/L,1,MCL
+BENSULM,Bensulfuron Methyl,UG/L,1000,HBSL
+BTZ,Bentazon,UG/L,18,MCL
+BZ,Benzene,UG/L,1,MCL
+BZAP,Benzo(a)pyrene,UG/L,0.2,MCL
+BE,Beryllium,UG/L,4,MCL
+BHCBETA,Beta-Benzene Hexachloride (Beta- BHC),UG/L,0.25,CA-Prop65
+ALKB,Bicarbonate Alkalinity,MG/L,0,No Comparison Conc.
+B,Boron,MG/L,1,NL
+BROMCIL,Bromacil,UG/L,70,HAL-US
+BRO3,Bromate,UG/L,10,MCL
+BR,Bromide,MG/L,0,No Comparison Conc.
+BDCME,Bromodichloromethane (THM),UG/L,80,MCL
+TBME,Bromoform (THM),UG/L,80,MCL
+CD,Cadmium,UG/L,5,MCL
+CA,Calcium,MG/L,0,No Comparison Conc.
+CARBAMPINE,Carbamazepine ,UG/L,0,No Comparison Conc.
+SEVIN,Carbaryl (1-naphthyl methylcarbamate),UG/L,40,HBSL
+CRBFN,Carbofuran,UG/L,18,MCL
+C-14,Carbon 14,PCT MODERN,0,No Comparison Conc.
+CDS,Carbon Disulfide,UG/L,160,NL
+CTCL,Carbon Tetrachloride,UG/L,0.5,MCL
+CHLORATE,Chlorate,UG/L,800,NL
+CHLORDANE,Chlordane,UG/L,0.1,MCL
+CL,Chloride,MG/L,500,SMCL
+CHLORITE,Chlorite,MG/L,1,MCL
+CLBZ,Chlorobenzene,UG/L,70,MCL
+TCLME,Chloroform (THM),UG/L,80,MCL
+CLPICRIN,Chloropicrin,UG/L,12,NAS-HAL
+TERMIL,Chorothalonil,UG/L,0,No Comparison Conc.
+CR,Chromium,UG/L,50,MCL
+CR6,"Chromium, Hexavalent (Cr6)",UG/L,20,HBSL
+CO,Cobalt,UG/L,0,No Comparison Conc.
+CODEINE,Codeine ,UG/L,0,No Comparison Conc.
+CU,Copper,MG/L,1.3,Action Level
+COTININE,Cotinine ,UG/L,0,No Comparison Conc.
+CYANAZ,Cyanazine,UG/L,0.3,HBSL
+CN,Cyanide (CN),UG/L,150,MCL
+CYPERM,Cypermethrin,UG/L,40,HBSL
+DACTH,Dacthal,UG/L,70,HBSL
+METABOLITES,Dacthal Monoacide,UG/L,0,No Comparison Conc.
+DACTACID,Dacthalmonoacid,UG/L,0,No Comparison Conc.
+DALAPON,Dalapon,UG/L,200,MCL
+DEATZ,Deethylatrazine,UG/L,50,CA-Prop65
+DEHYDRONIF,Dehydronifedipine ,UG/L,0,No Comparison Conc.
+DIPATZ,Deisopropyl Atrazine,UG/L,0,No Comparison Conc.
+DEUTERIUM,Deuterium,UG/L,0,No Comparison Conc.
+DOA,Di(2-ethylhexyl)adipate,MG/L,0.4,MCL
+BIS2EHP,Di(2-ethylhexyl)phthalate (DEHP),UG/L,4,MCL
+DIAZ,Diazinon,UG/L,1.2,NL
+DBCME,Dibromochloromethane (THM),UG/L,80,MCL
+DICAMBA,Dicamba,UG/L,210,RfD
+FC12,Dichlorodifluoromethane,MG/L,1,NL
+DCMA,Dichloromethane (Methylene Chloride),UG/L,5,MCL
+DCPROP,Dichlorprop,UG/L,300,HBSL
+DICHLORVOS,Dichlorvos (DDVP),UG/L,0.4,HBSL
+DICOFOL,Dicofol,UG/L,0,No Comparison Conc.
+DIELDRIN,Dieldrin,UG/L,0.002,HBSL
+DIESEL,Diesel,UG/L,100,HAL-US
+DILTIAZEM,Diltiazem,UG/L,0,No Comparison Conc.
+DIMETHAT,Dimethoate,UG/L,2,HBSL
+DINOSEB,Dinoseb,UG/L,7,MCL
+DIPHENHYDR,Diphenhydramine ,UG/L,0,No Comparison Conc.
+DIQUAT,Diquat,UG/L,20,MCL
+DO,Dissolved Oxygen (DO),MG/L,0,No Comparison Conc.
+DOSAT,"Dissolved Oxygen, Percent Saturation  ",PERCENT,0,No Comparison Conc.
+DIURON,Diuron,UG/L,2,HBSL
+EPTAM,EPTC,UG/L,200,HBSL
+ENDOSULFANA,Endosulfan I,UG/L,42,RfD
+ENDOSULFANB,Endosulfan II,UG/L,42,RfD
+ENDOSULFANS,Endosulfan Sulfate,UG/L,42,RfD
+ENDOTHAL,Endothall,UG/L,100,MCL
+ENDRIN,Endrin,UG/L,2,MCL
+ENDRINALD,Endrin Aldehyde,UG/L,0,No Comparison Conc.
+ETBE,Ethyl tertiary butyl ether (ETBE),UG/L,0,No Comparison Conc.
+EBZ,Ethylbenzene,UG/L,300,MCL
+ETEGLY,Ethylene glycol,MG/L,14,NL
+FCOLIFORM,Fecal Coliform (bacteria),Count,0.99,MCL
+FENPHOS,Fenamiphos,UG/L,0.7,HBSL
+F,Fluoride,MG/L,2,MCL
+FOAMAGENTS,Foaming Agents (MBAS),MG/L,0.5,SMCL
+FONOFOS,Fonofos,UG/L,10,HBSL
+FORMALD,Formaldehyde,UG/L,100,NL
+GASOLINE,Gasoline,UG/L,5,HAL-US
+GLYP,Glyphosate (Round-up),UG/L,700,MCL
+ALPHA,Gross Alpha radioactivity,pCi/L,15,MCL
+BETA,Gross beta,pCi/L,50,MCL
+AZIPM,Guthion (Azinphos Methyl),UG/L,10,HBSL
+HE-4,Helium,cm3STP/g,0,No Comparison Conc.
+HE-3/HE-4,Helium-3/Helium-4,atom ratio,0,No Comparison Conc.
+HEPTACHLOR,Heptachlor,UG/L,0.01,MCL
+HEPT-EPOX,Heptachlor Epoxide,UG/L,0.01,MCL
+HCLBZ,Hexachlorobenzene (HCB),UG/L,1,MCL
+HCBU,Hexachlorobutadiene,UG/L,0.9,HBSL
+HCCP,Hexachlorocyclopentadiene,UG/L,50,MCL
+HEXAZINONE,Hexazinone,UG/L,400,HBSL
+I,Iodide,UG/L,1190,NAS-HAL
+IPRODIONE,Iprodione,UG/L,0.8,HBSL
+FE,Iron,UG/L,300,SMCL
+IPBZ,Isopropylbenzene ( Cumene),UG/L,770,NL
+KEROSENE,Kerosene,UG/L,100,HAL-US
+KR,Krypton,cm3STP/g,0,No Comparison Conc.
+PB,Lead,UG/L,15,Action Level
+BHCGAMMA,Lindane (Gamma-BHC) ,UG/L,0.2,MCL
+LINURON,Linuron,UG/L,5,HBSL
+LI,Lithium,UG/L,0,No Comparison Conc.
+MTBE,MTBE (Methyl-tert-butyl ether),UG/L,13,MCL
+MG,Magnesium,MG/L,0,No Comparison Conc.
+MALA,Malathion,UG/L,500,HBSL
+MN,Manganese,UG/L,50,SMCL
+HG,Mercury,UG/L,2,MCL
+METALAXYL,Metalaxyl,UG/L,500,HBSL
+CH4,"Methane, dissolved  ",MG/L,0,No Comparison Conc.
+METHOMYL,Methomyl,UG/L,200,HBSL
+MTXYCL,Methoxychlor,UG/L,30,MCL
+BRME,Methyl Bromide (Bromomethane),UG/L,10,HAL-US
+IME,Methyl Iodide,UG/L,0,No Comparison Conc.
+MIBK,Methyl Isobutyl Ketone (MIBK),UG/L,120,NL
+METOCHLOR,Metolachlor,UG/L,700,HBSL
+METRIBUZ,Metribuzin,UG/L,90,HBSL
+MOLINATE,Molinate,UG/L,20,MCL
+MO,Molybdenum,UG/L,40,HAL-US
+NNSPR,N-Nitrosodi-N-Propylamine (NDPA),UG/L,0.01,NL
+NNSE,N-Nitrosodiethylamine (NDEA),UG/L,0.01,NL
+NNSM,N-Nitrosodimethylamine (NDMA),UG/L,0.01,NL
+NALED,Naled,UG/L,10,HBSL
+NAPH,Naphthalene,UG/L,17,NL
+NAPROPAM,Napropamide,UG/L,800,HBSL
+NE,Neon,cm3STP/g,0,No Comparison Conc.
+NI,Nickel,UG/L,100,MCL
+NO3N,Nitrate as N,MG/L,10,MCL
+NO3NO2N,Nitrate+Nitrite,MG/L,10,MCL
+NO2,Nitrite as N,MG/L,1,MCL
+NORFLUZON,Norflurazon,UG/L,10,HBSL
+HMX,Octogen (HMX),MG/L,0.35,NL
+OXAMYL,Oxamyl,UG/L,50,MCL
+OXYFLUOREN,Oxyfluorfen,UG/L,20,HBSL
+PCNB,PCNB,UG/L,21,RfD
+PARAE,Parathion,UG/L,0.02,HBSL
+PCP,Pentachlorophenol (PCP),UG/L,1,MCL
+PCATE,Perchlorate,UG/L,6,MCL
+PFOA,Perfluorooctanoic acid,UG/L,0.014,NL
+PFOSA,Perfluorooctanoic sulfonate,UG/L,0.013,NL
+PERMETHRIN,Permethrin,UG/L,4,HBSL
+PHORATE,Phorate,UG/L,4,HBSL
+PICLORAM,Picloram,MG/L,0.5,MCL
+PCB1016,Polychlorinated Biphenyls (PCBs),UG/L,0.5,MCL
+K,Potassium,MG/L,0,No Comparison Conc.
+PROMETON,Prometon,UG/L,400,HBSL
+PROMETRYN,Prometryn,UG/L,300,HBSL
+PROPACHLOR,Propachlor (2-Chloro-N-isopropylacetanilide),UG/L,90,NL
+PROPANIL,Propanil,UG/L,6,HBSL
+PROPGITE,Propargite,UG/L,1,HBSL
+RDX,"RDX (hexahydro-1,3,5-trinitro-1,3,5-triazine)",MG/L,0.3,NL
+RA-226,Radium 226,pCi/L,5,MCL
+RA-228,Radium 228,pCi/L,5,MCL
+RN-222,Radon 222,pCi/L,4000,MCL
+SE,Selenium,UG/L,50,MCL
+AG,Silver,UG/L,100,HBSL
+SIMAZINE,Simazine,UG/L,4,MCL
+Na,Sodium ,MG/L,50,Action Level
+SC,Specific Conductivity,UMHOS/CM,1600,SMCL
+STODSOLV,Stoddard Solvent,UG/L,0,No Comparison Conc.
+SR,Strontium,UG/L,4000,HAL-US
+SR-90,Strontium 90,pCi/L,8,MCL
+STY,Styrene,UG/L,100,MCL
+SULFAMETH,Sulfamethoxazole  ,UG/L,0,No Comparison Conc.
+SO4,Sulfate,MG/L,500,SMCL
+TEMP,Temperature,CELSIUS,0,No Comparison Conc.
+TAME,Tertiary amyl methyl ether,UG/L,0,No Comparison Conc.
+PCE,Tetrachloroethene (PCE),UG/L,5,MCL
+TL,Thallium,UG/L,2,MCL
+THIABEND,Thiabendazole,UG/L,231,HHBP
+THIOBENCARB,Thiobencarb,UG/L,70,MCL
+BZME,Toluene,UG/L,150,MCL
+COLIFORM,Total Coliform Bacteria,Count,0.99,MCL
+TDS,Total Dissolved Solids,MG/L,1000,SMCL
+TOCH,Total Organic Carbon,MG/L,0,No Comparison Conc.
+PHC,Total Petroleum Hydrocarbons,UG/L,0,No Comparison Conc.
+THM,Total Trihalomethanes ,UG/L,80,MCL
+TOXAP,Toxaphene,UG/L,3,MCL
+TRICLOPYR,Trichlopyr,UG/L,400,HBSL
+TCE,Trichloroethene (TCE),UG/L,5,MCL
+FC11,Trichlorofluoromethane (Freon 11),UG/L,150,MCL
+TRIFLURALIN,Trifluralin,UG/L,20,HBSL
+TRIMETHOP,Trimethoprim,UG/L,0,No Comparison Conc.
+H-3,Tritium,pCi/L,20000,MCL
+W,Tungsten,UG/L,0,No Comparison Conc.
+U,Uranium,pCi/L,20,MCL
+V,Vanadium,UG/L,50,NL
+VC,Vinyl Chloride,UG/L,0.5,MCL
+WARFARIN,Warfarin ,UG/L,2,HBSL
+XE,Xenon,cm3STP/g,0,No Comparison Conc.
+XYLENES,Xylenes (total),UG/L,1750,MCL
+ZN,Zinc,MG/L,5,SMCL
+HCO3,bicarbonate HCO3,MG/L,0,No Comparison Conc.
+CO3,carbonate CO3,MG/L,0,No Comparison Conc.
+DCE12C,"cis-1,2 Dichloroethylene",UG/L,6,MCL
+H2H1RAT,delta H2/H1,per mil,0,No Comparison Conc.
+N15N14NO3,"delta N-15, NO3",per mil,0,No Comparison Conc.
+O18O16NO3,"delta O18, NO3",per mil,0,No Comparison Conc.
+O18O16RAT,delta O18/O16 in water,per mil,0,No Comparison Conc.
+DIPE,diisopropyl ether,UG/L,0,No Comparison Conc.
+BTBZN,n-Butylbenzene,UG/L,260,NL
+PBZN,n-Propylbenzene (Isocumene),UG/L,260,NL
+PORTHO,orthophosphate,MG/L,0,No Comparison Conc.
+PH,pH,PH UNITS,0,No Comparison Conc.
+BTBZS,sec-Butylbenzene,UG/L,260,NL
+TEBUTHIURON,tebuthiuron,UG/L,1000,HBSL
+TBA,tert-Butyl alcohol (TBA),UG/L,12,NL
+BTBZT,tert-Butylbenzene,UG/L,260,NL
+DCE12T,"trans-1,2, Dichloroethylene",UG/L,10,MCL

@@ -571,10 +571,11 @@ colnames(domwc)[colnames(domwc)=="MTRS.y"] <- "MTRS"
 fwrite(domwc, "Tables/domesticwells_mtrs_county_10_3_2022.csv")
 
 #get state small water system count per section
-ss_mtrs <- read.csv("Datasets/SSWS_mtrs_county_ddw2022.csv", stringsAsFactors = F) %>%
-  distinct() %>% group_by(MTRS, County) %>%
-  summarize(ssws_count = n())
-fwrite(ss_mtrs, "Tables/ssws_mtrs_county.csv")
+#this is now done within ArcGIS as the final step - ssws are not summarized by section in R for the 2023 map
+#ss_mtrs <- read.csv("Datasets/SSWS_mtrs_county_ddw2022.csv", stringsAsFactors = F) %>%
+#  distinct() %>% group_by(MTRS, County) %>%
+#  summarize(ssws_count = n())
+#fwrite(ss_mtrs, "Tables/ssws_mtrs_county.csv")
 
 #put it all together (wq risk, domwellcounts, sswscounts):
 section_data <- fread("Tables/Square Mile Sections/sectiondata_detailed2022-09-29.csv")
@@ -587,7 +588,7 @@ sdrisk_combined <- sdrisk
 #sdrisk_combined <- rbind(sdrisk, sdrisk_expanded)
 #note - some of these mtrs from dwr file are not in California!! so they will not appear when joined with mtrs_county
 domwc <- fread("Tables/domesticwells_mtrs_county_10_3_2022.csv")
-ss_mtrs <- fread("Tables/ssws_mtrs_county.csv")
+#ss_mtrs <- fread("Tables/ssws_mtrs_county.csv")
 mtrs_county <- read.csv("Tables/MTRS_Counties_new.csv") %>%
   #remove split objects
   select(COUNTYFP, NAME, NAMELSAD, MTRS) %>% distinct()
@@ -595,10 +596,10 @@ mtrs_county <- read.csv("Tables/MTRS_Counties_new.csv") %>%
 sdrisk_wells <- mtrs_county %>% select(MTRS, NAME, NAMELSAD) %>%
   left_join(., sdrisk_combined, by = "MTRS") %>%
   left_join(., domwc, by = c("MTRS", "NAME")) %>%
-  left_join(., ss_mtrs, by = c("MTRS", "NAME")) %>%
+#  left_join(., ss_mtrs, by = c("MTRS", "NAME")) %>%
   filter(!MTRS %in% c("", "BAY/DELTA", "SALTONSEA", "LAKETAHOE"))
 sdrisk_wells$DWR_dom_count[is.na(sdrisk_wells$DWR_dom_count)] <- 0
-sdrisk_wells$ssws_count[is.na(sdrisk_wells$ssws_count)] <- 0
+#sdrisk_wells$ssws_count[is.na(sdrisk_wells$ssws_count)] <- 0
 sdrisk_wells$WQriskbins[is.na(sdrisk_wells$WQriskbins)] <- "unknown"
 #sdrisk_wells <- sdrisk_wells %>% 
 #  mutate(WQrisk_1 = ifelse(method == "no_depth_filter", "UNK", WQriskbins))

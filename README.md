@@ -11,6 +11,7 @@ The data processing steps used to create the aquifer risk map.
 
 Methodology for the "2024 Aquifer Risk Map is available in the "2024" folder, and includes:
 1. "ARM_2024.R" (aquifer risk map data download and data processing steps)
+2. "GAMAchemicalmapping.xlsx" (list of chemicals and comparison concentrations)
 
 Methodology for the "2023 Aquifer Risk Map" is available in the "2023" folder, and includes:
 1. "ARM_2023.R" (aquifer risk map data download and data processing steps)

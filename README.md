@@ -1,13 +1,7 @@
 # Aquifer_Risk_Map
 The data processing steps used to create the aquifer risk map.
 
-2021 map: https://gispublic.waterboards.ca.gov/portal/apps/webappviewer/index.html?id=d11cd558dd4945729ae4f222034bd9c9
-
-2022 map: https://gispublic.waterboards.ca.gov/portal/apps/webappviewer/index.html?id=793d8e693d4441b3bc8cd5401f0d484e
-
-2023 map: https://gispublic.waterboards.ca.gov/portal/apps/webappviewer/index.html?id=17825b2b791d4004b547d316af7ac5cb
-
-2024 map: [link coming soon]
+[Aquifer Risk Map Web App](https://gispublic.waterboards.ca.gov/portal/apps/experiencebuilder/experience/?id=18c7d253f0a44fd2a5c7bcfb42cc158d): https://gispublic.waterboards.ca.gov/portal/apps/experiencebuilder/experience/?id=18c7d253f0a44fd2a5c7bcfb42cc158d
 
 Methodology for the "2024 Aquifer Risk Map is available in the "2024" folder, and includes:
 1. "ARM_2024.R" (aquifer risk map data download and data processing steps)

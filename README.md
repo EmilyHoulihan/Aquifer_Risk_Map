@@ -3,7 +3,10 @@ The data processing steps used to create the aquifer risk map.
 
 [Aquifer Risk Map Web App](https://gispublic.waterboards.ca.gov/portal/apps/experiencebuilder/experience/?id=18c7d253f0a44fd2a5c7bcfb42cc158d): https://gispublic.waterboards.ca.gov/portal/apps/experiencebuilder/experience/?id=18c7d253f0a44fd2a5c7bcfb42cc158d
 
-Methodology for the "2024 Aquifer Risk Map is available in the "2024" folder, and includes:
+Methodology for the "2025 Aquifer Risk Map" is available in the "2025" folder, and includes:
+1. "ARM_2025.R" (aquifer risk map data download and data processing steps)
+
+Methodology for the "2024 Aquifer Risk Map" is available in the "2024" folder, and includes:
 1. "ARM_2024.R" (aquifer risk map data download and data processing steps)
 2. "GAMAchemicalmapping.xlsx" (list of chemicals and comparison concentrations)
 
